@@ -16,10 +16,10 @@ As input, use the config.ini file. The following parameters can be set there:
 - ECONONOMICCOSTS_T: the economic costs c_t for the target of engaging in conflict
 - GLOBAL_STD: one uncertainty level for all payoffs of the opponents and one own's economic costs of engaging in conflict.
 
-For a single run, one only needs to fill in the config.ini as desired, and run the '''__Main__.py''' file by typing into a terminal:
-'''
+For a single run, one only needs to fill in the config.ini as desired, and run the ```__Main__.py``` file by typing into a terminal:
+```
 python __Main__.py
-'''
+```
 
 # Installation requirements
 Python version 3.7
