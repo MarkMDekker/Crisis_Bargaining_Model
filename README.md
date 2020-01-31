@@ -7,8 +7,15 @@ Some general text about the model
 31/01/2020 - Initial commit Mark with ugly code. Will structure later into a class and easy-to-use Python code.
 
 # Explanation (write with final version code)
-Input:
-Use config.ini file
+As input, use the config.ini file. The following parameters can be set there:
+
+AUDIENCECOST_A_S <- this is the audience cost $a_s$
+AUDIENCECOST_A_T <- this is the 
+AUDIENCECOST_B_S <- this is the 
+AUDIENCECOST_B_T <- this is the 
+ECONONOMICCOSTS_S <- this is the 
+ECONONOMICCOSTS_T <- this is the 
+GLOBAL_STD <- this is the 
 
 Functions:
 (...)
