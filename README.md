@@ -20,6 +20,23 @@ For a single run, one only needs to fill in the config.ini as desired, and run t
 ```
 python __Main__.py
 ```
+It will give you an output similar to:
+```
+# ========== RESULTS ========== #
+
+Probabilities in game tree
+p1                  : 0.754
+p2                  : 0.764
+p3                  : 0.841
+
+Probability of the game ending in...
+Status quo          : 0.246
+Concession target   : 0.178
+Backing down sender : 0.091
+Sanction imposed    : 0.485
+
+# ============================= #
+```
 
 # Installation requirements
 Python version 3.7
