@@ -6,7 +6,7 @@ Some general text about the model
 # Versions
 31/01/2020 - Initial commits and first draft of readme. Let me know if the code works on your computers.
 
-# Explanation (write with final version code)
+# Input and parameters
 As input, use the config.ini file. The following parameters can be set there:
 - AUDIENCECOST_A_S: the audience payoff a_s, the benefit (for sender) due to a successful treat.
 - AUDIENCECOST_A_T: the audience cost a_t, the cost (for target) due to conceding to the threat.
@@ -16,6 +16,7 @@ As input, use the config.ini file. The following parameters can be set there:
 - ECONONOMICCOSTS_T: the economic costs c_t for the target of engaging in conflict
 - GLOBAL_STD: one uncertainty level for all payoffs of the opponents and one own's economic costs of engaging in conflict.
 
+# Usage
 For a single run, one only needs to fill in the config.ini as desired, and run the ```__Main__.py``` file by typing into a terminal:
 ```
 python __Main__.py
