@@ -58,10 +58,16 @@ class CrisisBargainingModel(object):
 
     def single_run(self):
         ''' Function to do a single run with the given parameters '''
+
+        print('')
+        print('# =========== RESULTS =========== #')
+        print('')
+        print('Probabilities in game tree')
         print('p1                  :', np.round(p1(self.pars_s), 3))
         print('p2                  :', np.round(p2(self.pars_t), 3))
         print('p3                  :', np.round(p3(self.pars_s), 3))
         print('')
+        print('Probability of the game ending in...')
         print('Status quo          :', np.round(1-p1(self.pars_s), 3))
         print('Concession target   :', np.round(p1(self.pars_s) *
                                                 (1-p2(self.pars_t)), 3))
@@ -71,3 +77,6 @@ class CrisisBargainingModel(object):
         print('Sanction imposed    :', np.round(p1(self.pars_s) *
                                                 p2(self.pars_t) *
                                                 (p3(self.pars_s)), 3))
+        print('')
+        print('# =============================== #')
+        print('')

@@ -5,7 +5,7 @@
 from Class import CrisisBargainingModel
 
 # ----------------------------------------------------------------- #
-# Start class
+# Start model
 # ----------------------------------------------------------------- #
 
 Model = CrisisBargainingModel()
