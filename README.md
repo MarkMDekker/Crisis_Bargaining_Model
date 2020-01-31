@@ -23,7 +23,7 @@ python __Main__.py
 ```
 It will give you an output similar to:
 ```
-# ========== RESULTS ========== #
+# =========== RESULTS =========== #
 
 Probabilities in game tree
 p1                  : 0.754
@@ -36,7 +36,7 @@ Concession target   : 0.178
 Backing down sender : 0.091
 Sanction imposed    : 0.485
 
-# ============================= #
+# =============================== #
 ```
 
 # Installation requirements
