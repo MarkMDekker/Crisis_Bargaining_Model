@@ -2,7 +2,7 @@
 DOI: https://doi.org/10.33774/apsa-2020-jmx66-v2
 
 # Versions
-31/01/2020 - Initial commits and first draft of readme. Let me know if the code works on your computers.
+31/01/2020 - Initial commits and first draft of readme.
 
 # Input and parameters
 As input, use the config.ini file. The following parameters can be set there:
@@ -49,4 +49,4 @@ Package requirements:
 We have assumed here that unknown variables are derived from a Gaussian distribution with mean equal to the true value of the variable, and some specified standard deviation.
 
 # Acknowledgements
-Authors, etc.
+See preprint DOI above.
