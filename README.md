@@ -1,7 +1,5 @@
 # Crisis_Bargaining_Model
-DOI: will follow
-
-Some general text about the model
+DOI: https://doi.org/10.33774/apsa-2020-jmx66-v2
 
 # Versions
 31/01/2020 - Initial commits and first draft of readme. Let me know if the code works on your computers.
